@@ -18,9 +18,13 @@ export default function AboutMe() {
 						height={480}
 						className="mb-10 w-full max-w-[280px] rounded-full border-4 border-cyan-500 grayscale filter transition duration-300 hover:filter-none dark:border-cyan-700 md:mb-0"
 					/>
-					<p className="flex w-full max-w-2xl items-center text-center text-base md:mb-0 md:ml-10 md:text-lg">
-						{`I'm a student at Bennett University in Greater Noida, India, where I'm studying a Bachelor of Technology in Computer Science Engineering. I am specializing in artificial intelligence, but I'll experiment with any new technology I come across. Details about my schooling, abilities, and completed projects are provided here. I hope you enjoy them, and please consider emailing me any comments you may have.`}
-					</p>
+					<div className="flex w-full max-w-2xl items-center text-align:left text-base md:mb-0 md:ml-10 md:text-lg">
+						{`I am a software engineer and tech lead with over 5 years of experience in software development. I am always learning and growing, both through reading and research, as well as through collaboration with my colleagues. I am passionate about sharing knowledge and learning from others, both in the technical and non-technical realms. `}
+						<br></br>
+						{`Details about my schooling, abilities, and completed projects are provided here. `}
+						<br></br>
+						{`I hope you enjoy them, and please consider emailing me any comments you may have.`}
+					</div>
 				</div>
 			</div>
 		</Fade>

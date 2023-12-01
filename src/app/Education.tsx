@@ -11,49 +11,26 @@ export default function Education() {
 					Education
 				</h3>
 				<div className="mx-0 grid grid-cols-1 sm:grid-cols-2 md:mx-5 lg:grid-cols-4">
-					<div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500  dark:border-gray-800 dark:text-white dark:hover:border-cyan-700">
-						<Fade left cascade>
-							<div>
-								<p className="mb-2 cursor-default text-base text-cyan-600 dark:text-cyan-500">2020</p>
-								<p className="my-1 text-xl font-medium">Class X</p>
-								<p className="my-1 text-sm font-medium">CBSE</p>
-								<p className="text-sm">Grade: 91.2% </p>
-							</div>
-							<div className="block">
-								<Image
-									src="/bps_logo.png"
-									alt="BPS Logo"
-									width={100}
-									title="BPS Mayur Vihar Phase III"
-									height={100}
-									onClick={() => {
-										window.open('https://www.bpsmv.edu.in/', '_blank');
-									}}
-									className="hover:cursor-pointer"
-								/>
-							</div>
-						</Fade>
-					</div>
-					<div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500  dark:border-gray-800 dark:text-white dark:hover:border-cyan-700">
+					<div className="group m-4 flex justify-between rounded-xl border-2 border-cyan-200 p-5 text-gray-700 hover:border-cyan-500  dark:border-gray-800 dark:text-white dark:hover:border-cyan-700 sm:col-span-2">
 						<Fade left>
 							<div>
 								<p className="mb-2 cursor-default text-base text-cyan-600 dark:text-cyan-500">
-									2020-2022
+									2011-2014
 								</p>
-								<p className="my-1 text-xl font-medium">Class XII</p>
-								<p className="my-1 text-sm font-medium">Science</p>
-								<p className="text-sm">Grade: 89.5% </p>
+								<p className="my-1 font-medium sm:text-xl">Mathematics and Informatics</p>
+								<p className="my-1 text-sm font-medium">Quang Trung Specialized and Gifted High School</p>
+								<p className="text-sm">K9</p>
 							</div>
 							<div className="block">
 								<Image
-									src="/bps_logo.png"
-									alt="BPS Logo"
-									width={100}
-									height={100}
-									title="BPS Mayur Vihar Phase III"
-									onClick={() => {
-										window.open('https://www.bpsmv.edu.in/', '_blank');
-									}}
+								src="/cqt_logo.png"
+								alt="CQT Logo"
+								width={100}
+								height={100}
+								title="Chuyên Quang Trung"
+								onClick={() => {
+									window.open('https://chuyenquangtrung.edu.vn/', '_blank');
+								}}
 									className="hover:cursor-pointer"
 								/>
 							</div>
@@ -63,20 +40,20 @@ export default function Education() {
 						<Fade left>
 							<div>
 								<p className="mb-2 cursor-default text-base text-cyan-600 dark:text-cyan-500">
-									2022-2026
+									2014-2019 (Engineering Degree)
 								</p>
-								<p className="my-1 font-medium sm:text-xl">B.Tech in Computer Science</p>
-								<p className="my-1 text-sm font-medium">Bennett University</p>
-								<p className="text-sm">CGPA: 9.66</p>
+								<p className="my-1 font-medium sm:text-xl">Faculty of Software Engineering</p>
+								<p className="my-1 text-sm font-medium">University of Information Technology</p>
+								<p className="text-sm">K9</p>
 							</div>
 							<Image
-								src="/bennett_logo.png"
-								alt="Bennett Logo"
+								src="/uit_logo.png"
+								alt="UIT Logo"
 								width={100}
 								height={100}
-								title="Bennett University"
+								title="UIT"
 								onClick={() => {
-									window.open('https://www.bennett.edu.in/', '_blank');
+									window.open('https://www.uit.edu.vn/', '_blank');
 								}}
 								className="object-contain hover:cursor-pointer"
 							/>

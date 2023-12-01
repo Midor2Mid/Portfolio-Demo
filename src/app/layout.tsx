@@ -2,8 +2,8 @@ import './globals.css';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
-	title: 'Chirag Aggarwal',
-	description: "Chirag Aggarwal's portfolio website built with Next.js",
+	title: 'Son Tran Quang',
+	description: "Son Tran Quang's portfolio website built with Next.js",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

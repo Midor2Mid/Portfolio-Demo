@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react';
 import TextTransition, { presets } from 'react-text-transition';
 
 export default function LandingPage() {
-	const line1 = 'Hi, I am a passionate computer science student from India🇮🇳 🇮🇳';
-	const line2 = 'I like to learn new things and build stuff.';
+	const line1 = 'Hi, I am a passionate software engineer from Vietnam VN';
+	const line2 = 'I like to learn new things.';
 
 	const [mounted, setMounted] = useState(false);
 
@@ -14,7 +14,7 @@ export default function LandingPage() {
 		setMounted(true);
 	}, []);
 
-	const titles = ['Computer Science Student', 'Full Stack Developer', 'Competitive Programmer', 'Caffeinated Coder'];
+	const titles = ['Software Engineer', 'Backend Developer', 'Competitive Programmer', 'Caffeinated Coder'];
 	const [titleIndex, setTitleIndex] = useState(0);
 
 	useEffect(() => {
@@ -28,7 +28,7 @@ export default function LandingPage() {
 		<div className="min-h-[100dvh] w-full md:flex md:items-center md:justify-center">
 			<div className="px-10 pt-10 text-center">
 				<h1 className="cursor-default py-2 text-3xl font-medium text-cyan-700 dark:text-cyan-600 sm:text-4xl md:text-5xl">
-					Chirag Aggarwal
+					Son Tran Quang
 				</h1>
 
 				{mounted ? (
@@ -98,7 +98,7 @@ export default function LandingPage() {
 				)}
 				<div className="flex justify-center gap-16 py-3 text-5xl text-gray-600">
 					<a
-						href="https://github.com/ChiragAgg5k"
+						href="https://github.com/Midor2Mid"
 						target="_blank"
 						aria-label="Github"
 						rel="noreferrer"
@@ -108,7 +108,7 @@ export default function LandingPage() {
 						<p className="invisible text-xs group-hover:visible">Github</p>
 					</a>
 					<a
-						href="https://www.linkedin.com/in/chiragagg5k/"
+						href="https://www.linkedin.com/in/son-quang-tran/"
 						target="_blank"
 						rel="noreferrer"
 						aria-label="LinkedIn"
@@ -118,7 +118,7 @@ export default function LandingPage() {
 						<p className=" invisible  text-xs group-hover:visible">LinkedIn</p>
 					</a>
 					<a
-						href="https://leetcode.com/ChiragAgg5k/"
+						href="https://leetcode.com/Midor2Mid/"
 						target="_blank"
 						rel="noreferrer"
 						aria-label="Leetcode"

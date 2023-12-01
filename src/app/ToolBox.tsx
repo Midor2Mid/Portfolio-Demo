@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { TbBrandCpp, TbBrandNextjs, TbBrandTypescript } from 'react-icons/tb';
-import { DiJava, DiPython, DiMongodb, DiPostgresql } from 'react-icons/di';
-import { SiDjango, SiExpress, SiMysql, SiFirebase, SiFlutter, SiSqlite } from 'react-icons/si';
+import { DiPhp, DiHtml5, DiCss3, DiDotnet, DiPostgresql, DiSymfonyBadge, DiNodejs, DiMongodb } from 'react-icons/di';
+import { SiCsharp, SiDjango, SiExpress, SiMysql, SiFirebase, SiFlutter, SiSqlite } from 'react-icons/si';
 import { BsGit, BsAndroid2 } from 'react-icons/bs';
 import { BiLogoJavascript } from 'react-icons/bi';
 import { FcLinux } from 'react-icons/fc';
@@ -19,57 +19,52 @@ interface Tool {
 const languageTools: Tool[] = [
 	{
 		index: 0,
-		name: 'Python',
-		icon: <DiPython className="m-4 text-6xl text-cyan-700" />,
+		name: 'C#',
+		icon: <SiCsharp className="m-4 text-6xl text-purple-700" />,
 	},
 	{
 		index: 1,
-		name: 'C++',
-		icon: <TbBrandCpp className="m-4 text-6xl text-blue-600 " />,
-	},
-	{
-		index: 2,
-		name: 'Java',
-		icon: <DiJava className={'m-4 text-6xl text-orange-700'} />,
-	},
-	{
-		index: 3,
 		name: 'Javascript',
 		icon: <BiLogoJavascript className={'m-4 text-6xl text-yellow-500'} />,
 	},
 	{
-		index: 4,
-		name: 'TypeScript',
-		icon: <TbBrandTypescript className="m-4 text-6xl text-blue-600" />,
+		index: 2,
+		name: 'PHP',
+		icon: <DiPhp className={'m-4 text-6xl text-cyan-600'} />,
 	},
+	{
+		index: 3,
+		name: 'HTML',
+		icon: <DiHtml5 className="m-4 text-6xl text-blue-600 " />,
+	},
+	{
+		index: 4,
+		name: 'CSS',
+		icon: <DiCss3 className={'m-4 text-6xl text-orange-700'} />,
+	}
 ];
 
 const frameworkTools: Tool[] = [
 	{
 		index: 0,
-		name: 'Next.js',
-		icon: <TbBrandNextjs className={'m-4 text-6xl text-white'} />,
+		name: '.NET',
+		icon: <DiDotnet className={'m-4 text-6xl text-white'} />,
 	},
 	{
 		index: 1,
-		name: 'Django',
-		icon: <SiDjango className={'m-4 text-6xl text-green-800'} />,
+		name: 'Symfony',
+		icon: <DiSymfonyBadge className={'m-4 text-6xl text-green-800'} />,
 	},
 	{
 		index: 2,
-		name: 'Express.js',
-		icon: <SiExpress className={'m-4 text-6xl text-white'} />,
+		name: 'DiNodejs',
+		icon: <DiNodejs className={'m-4 text-6xl text-cyan-500'} />,
 	},
 	{
 		index: 3,
-		name: 'Flutter',
-		icon: <SiFlutter className={'m-4 text-6xl text-cyan-500'} />,
-	},
-	{
-		index: 4,
-		name: 'Android',
-		icon: <BsAndroid2 className={'m-4 text-6xl text-green-600'} />,
-	},
+		name: 'Express.js',
+		icon: <SiExpress className={'m-4 text-6xl text-white'} />,
+	}
 ];
 
 const databaseTools: Tool[] = [
